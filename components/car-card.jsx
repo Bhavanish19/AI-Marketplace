@@ -23,7 +23,7 @@ export const CarCard = ({ car }) => {
     loading: isToggling,
     fn: toggleSavedCarFn,
     data: toggleResult,
-    error: toggleError,
+    error: toggleError,  
   } = useFetch(toggleSavedCar);
 
   // Handle toggle result with useEffect
